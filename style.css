@@ -1,0 +1,651 @@
+@font-face {
+    font-family:monserrat;
+    src: url(font/montserrat.woff);
+}
+  
+@font-face {
+    font-family:solaimanlipi;
+    src: url(font/SolaimanLipi.woff);
+}
+  
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+img{max-width: 100%;}
+
+body{
+    font-family: solaimanlipi;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: solaimanlipi;
+    color: #353333;
+    padding: 10px 0px;
+}
+h2 {
+    font-size: 30px;
+    font-family: solaimanlipi;
+    color: #2b2929;
+}
+p {
+    font-size: 18px;
+    font-family: solaimanlipi;
+    color: #2b2929;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+/*....................... Header Section Style Start here................... */
+
+.red-header {
+    background: #ce0000c7;
+}
+
+.red-header-wraper {
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.header-icons {
+    float: left;
+}
+
+.header-icons i {
+    background: white;
+    padding: 8px 10px;
+    color: #716161;
+}
+.header-icons i:hover {
+    background: black;
+    color: white;
+}
+
+i.fab.fa-facebook-f:hover {
+    background:  #3b5998;
+    color: white;
+}
+
+i.fas.fa-users:hover {
+    background:  #3b5998;
+    color: white;
+}
+
+.youtube-btn {
+    float: right;
+}
+
+button.youtube {
+    padding: 10px 15px;
+    border: none;
+    font-size: 17px;
+    font-family: solaimanlipi;
+    transition: 0.3s;
+}
+button.youtube:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.red-header {
+    background: #ce0000c7;
+}
+
+.red-header-wraper {
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.header-icons {
+    float: left;
+}
+
+.header-icons i {
+    background: white;
+    padding: 8px 10px;
+    color: #101010;
+}
+
+/* dropdown menu */
+
+.navigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: white;
+}
+
+button.close-menu {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    float: right;
+}
+
+button.close-menu i {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    float: right;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+  }
+
+.navigation ul {
+    padding: 80px 0px;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #585353;
+    font-size: 15px;
+    margin: 0px 20px;
+    padding: 15px 0px;
+}
+
+.navigation ul li i {
+    border: none;
+    float: right;
+    font-size: 15px;
+    color: white;
+}
+
+ul.drop-down {
+    display: none;
+}
+
+
+/* dropdown menu */
+
+.youtube-btn {
+    float: right;
+}
+
+button.youtube {
+    padding: 10px 15px;
+    border: none;
+    font-size: 17px;
+}
+
+.main-header-wraper {
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 140px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu i {
+    font-size: 40px;
+    border: 2px solid #585252;
+    padding: 5px 10px;
+    color: #4c4b4b;
+}
+
+/*....................... Header Section Style End here................... */
+/*....................... Banar Section Style Start here................... */
+button.online-chorse {
+    background: #e20202b8;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: solaimanlipi;
+    transition: 0.3s;
+}
+button.online-chorse:hover {
+    background: red;
+    cursor: pointer;
+}
+
+button.ofline-chorse {
+    background: #4a4848;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: solaimanlipi;
+    transition: 0.3s;
+}
+
+button.ofline-chorse:hover {
+    background: black;
+    cursor: pointer;
+}
+
+.baner-text {
+    width: 95%;
+    margin: 60px auto;
+}
+
+.baner-img {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.baner-img img {
+    width: 100%;
+}
+
+/*....................... Banar Section Style End here................... */
+/*....................... Services Section Style Start here................... */
+
+.services-wraper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.servic-items {
+    overflow: hidden;
+}
+
+.s-item-icon {
+    background: #ddd;
+    width: 80px;
+    font-size: 45px;
+    color: #3a3535;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.services-item {
+    border: 1px solid #ddd;
+    padding: 25px;
+    padding-bottom: 0;
+    margin: 30px 0px;
+}
+
+/*....................... Services Section Style End here................... */
+/*....................... Teacher Section Style Start here................... */
+
+section#teacher {
+    background: #dddddda1;
+    overflow: hidden;
+}
+
+.teacher-wraper {
+    width: 95%;
+    margin: 80px auto;
+}
+
+.teacher-image {
+    height: 100%;
+}
+
+.teacher-image img {
+    border: 5px solid #7163639c;
+}
+
+.teacher-text h2 {
+    margin-top: 25px;
+}
+
+button.blog {
+    background: #e20202b8;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: solaimanlipi;
+    transition: 0.3s;
+}
+button.blog:hover {
+    background: red;
+    cursor: pointer;
+}
+
+p a {
+    color: red;
+}
+
+
+/*....................... Teacher Section Style End here................... */
+/*....................... Feedback Section Style Start here................... */
+
+p a {
+    color: red;
+}
+
+.feedback-wraper {
+    width: 95%;
+    margin: 80px auto;
+}
+
+.feedback-item {
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 30px 0px;
+}
+
+.comment i {
+    color: #ffc800;
+    font-size: 14px;
+}
+
+.person-img img {
+    width: 70px;
+    float: left;
+    border-radius: 50%;
+}
+
+.person-dec {
+    float: left;
+    margin-left: 15px;
+}
+
+.person {
+    overflow: hidden;
+}
+
+.person-dec p {
+    padding: 0px;
+}
+
+
+/*....................... Feedback Section Style End here................... */
+/*....................... Blog Section Style Start here................... */
+
+p a {
+    color: red;
+}
+
+.feedback-wraper {
+    width: 95%;
+    margin: 80px auto;
+}
+
+.feedback-item {
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 30px 0px;
+}
+
+.comment i {
+    color: #ffc800;
+    font-size: 14px;
+}
+
+.person-img img {
+    width: 70px;
+    float: left;
+    border-radius: 50%;
+}
+
+.person-dec {
+    float: left;
+    margin-left: 15px;
+}
+
+.person {
+    overflow: hidden;
+}
+
+.person-dec p {
+    padding: 0px;
+}
+
+.Blog-wraper {
+    width: 95%;
+    margin: 70px auto;
+}
+
+section#Blog {
+    background: #ece8e8;
+    overflow: hidden;
+}
+
+.blog-text {
+    background: white;
+    padding: 30px;
+}
+
+.blog-text a {
+    background: #e80101;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.blog-text h2 {
+    padding: 15px 0px;
+}
+.blog-text h2:hover {
+    color: #e80101;
+    cursor: pointer;
+}
+
+.writer-img img {
+    float: left;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.writer-dec {
+    float: left;
+    padding: 20px 10px;
+}
+
+.writer-img {
+    float: left;
+}
+
+.writer-dec h6 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.writer {
+    width: 100%;
+    float: left;
+}
+
+.blog-item {
+    margin: 30px 0px;
+}
+
+/*....................... Blog Section Style End here................... */
+/*....................... Saminer Section Style Start here................... */
+
+.saminer-wraper {
+    width: 95%;
+    margin: 70px auto;
+    overflow: hidden;
+}
+
+.saminer-img img {
+    width: 100%;
+}
+
+.saminer-text {
+    background: #9894941f;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.saminer-text-items {
+    overflow: hidden;
+}
+
+.saminer-text-items ul li {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    font-family: solaimanlipi;
+    font-size: 17px;
+    color: black;
+    line-height: 50px;
+}
+
+.saminer-text-items {
+    overflow: hidden;
+}
+
+.saminer-text-items ul li i {
+    margin-right: 15px;
+}
+
+.saminer-btn {
+    background: #9894941f;
+    padding: 31px;
+}
+
+.saminer-btn h3 {
+    margin-bottom: 20px;
+    color: #3a3737;
+    font-size: 23px;
+}
+
+/*....................... Saminer Section Style End here................... */
+/*....................... Footer Section Style Start here................... */
+
+footer#footer {
+    background: #9894941f;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+
+.footer-wraper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-wraper img {
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.footer-wraper h2 {
+    margin-bottom: 30px;
+}
+
+footer#footer {
+    background: #9894941f;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+
+.footer-wraper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-wraper img {
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.footer-wraper h2 {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    color: #696464;
+    padding-left: 8px;
+}
+
+button.subscribe {
+    border: none;
+    background: #e60303;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: normal;
+}
+button.subscribe:hover {
+    background: red;
+    cursor: pointer;
+
+}
+
+.subscribe {
+    margin-bottom: 20px;
+}
+
+.pament img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.copyright {
+    margin: 0 auto;
+    width: 445px;
+    text-align: center;
+}
+
+.links a {
+    color: #f30303;
+    font-size: 18px;
+}
+/*....................... Footer Section Style End here................... */
+/*....................... Back to top & masanger Section Style Start here................... */
+
+button.Top {
+    padding: 10px;
+    border: none;
+    background: #e40101;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+button.masanger {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #e40101;
+    color: white;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+}
+
+button.masanger {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+/*....................... Back to top & masanger Section Style End here................... */
